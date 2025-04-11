@@ -26,7 +26,6 @@
 <style>
   .hero {
     display: flex;
-    height: 100vh;
     overflow-y: hidden;
   }
 
@@ -46,16 +45,14 @@
   .book-cover {
     position: absolute;
     right: 2%;
-    bottom: 0;
+    transform: translateY(15%);
     width: 65%;
-    transform: translateY(30%);
   }
 
   .phone-cover {
     width: 35%;
     position: absolute;
-    bottom: 0;
     right: 52%;
-    transform: translateY(25%);
+    transform: translateY(40%);
   }
 </style>
